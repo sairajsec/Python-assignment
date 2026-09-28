@@ -1,6 +1,3 @@
-# Assignment 1: Create a Dictionary, Tuple and List of students
-# Perform Add, Delete and Update operations
-
 # Creating a list
 students_list = ["Ananya", "Arjun", "Kavya", "Ishaan", "Meera"]
 print("Students list: ", students_list)
