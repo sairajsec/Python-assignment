@@ -1,4 +1,3 @@
-# Creating a list
 students_list = ["Ananya", "Arjun", "Kavya", "Ishaan", "Meera"]
 print("Students list: ", students_list)
 
@@ -17,9 +16,6 @@ print(students_list)
 
 students_list[2] = "Saanvi"
 print(students_list)
-
-
-# Creating a tuple
 students_tuple = ("Ananya", "Arjun", "Kavya", "Ishaan", "Meera")
 print("Students tuple: ", students_tuple)
 
@@ -28,9 +24,9 @@ y.append("Vihaan")
 y.append("Advik")
 y.append("Myra")
 
+
 students_tuple = tuple(y)
 print(students_tuple)
-
 y = ("Reyansh",)
 students_tuple += y
 print(students_tuple)
@@ -42,15 +38,12 @@ y.remove("Meera")
 students_tuple = tuple(y)
 print(students_tuple)
 
-
-# Creating a dictionary
 students_dict = {
     1: "Ananya",
     2: "Arjun",
     3: "Kavya",
     4: "Ishaan",
-    5: "Meera"
-}
+    5: "Meera"}
 
 print("Students dictionary: ", students_dict)
 
